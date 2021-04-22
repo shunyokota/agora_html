@@ -41,7 +41,7 @@ async function onLoad() {
     client.on("user-unpublished", handleUserUnpublished);
 
     let uid
-    const token = '006cba0047bd1034cc9a8e1aa8ebc94955eIABZveFzrRcifxJCsQ9XpslfTqGczGwjlz65Z9BSvSRcTQx+f9gAAAAAEACsrxsmTdR6YAEAAQBN1Hpg';//await getToken(channelName);
+    const token = '006cba0047bd1034cc9a8e1aa8ebc94955eIABWbP5hNLkf7TfR0Kh/YSLdMsogUc7217F5ap8C3JX5Egx+f9gAAAAAEAAtfBYxFmiCYAEAAQAVaIJg';//await getToken(channelName);
     console.info(`Your token is ${token}`);
     // join a channel and create local tracks, we can use Promise.all to run them concurrently
     [uid, localTracks.audioTrack, localTracks.videoTrack] = await Promise.all([
